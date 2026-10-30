@@ -1,5 +1,10 @@
 import React, { useState } from 'react';
 import { INDUSTRIES } from '../data/mockData';
+import itCorporateImage from '../assets/images/it_corporate_hiring_1792995691499.jpg';
+import healthcareImage from '../assets/images/healthcare_staffing_team_1792995692115.jpg';
+import staffingImage from '../assets/images/service_staffing_1792993375982.jpg';
+import workforceImage from '../assets/images/hero_workforce_team_1792993374261.jpg';
+import recruitmentImage from '../assets/images/service_recruitment_1792993375079.jpg';
 import {
   Laptop,
   Factory,
@@ -45,15 +50,15 @@ export const IndustriesSection: React.FC<IndustriesSectionProps> = ({
   const getIndustryImage = (id: string) => {
     switch (id) {
       case 'it':
-        return '/src/assets/images/it_corporate_hiring_1792995691499.jpg';
+        return itCorporateImage;
       case 'healthcare':
-        return '/src/assets/images/healthcare_staffing_team_1792995692115.jpg';
+        return healthcareImage;
       case 'manufacturing':
-        return '/src/assets/images/service_staffing_1792993375982.jpg';
+        return staffingImage;
       case 'corporate':
-        return '/src/assets/images/hero_workforce_team_1792993374261.jpg';
+        return workforceImage;
       default:
-        return '/src/assets/images/service_recruitment_1792993375079.jpg';
+        return recruitmentImage;
     }
   };
 

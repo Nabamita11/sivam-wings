@@ -117,7 +117,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenContact }) => {
               <div className="relative rounded-2xl p-2 bg-gradient-to-tr from-blue-500 via-indigo-500 to-amber-400 shadow-xl">
                 <div className="relative rounded-xl overflow-hidden bg-white aspect-[4/3] sm:aspect-[16/11]">
                   <img
-                    src="/src/assets/images/hero_workforce_team_1792993374261.jpg"
+                    src={new URL('../assets/images/hero_workforce_team_1792993374261.jpg', import.meta.url).href}
                     alt="Sivam Wings workforce and recruitment team collaborating in a bright modern office"
                     className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-700"
                     referrerPolicy="no-referrer"

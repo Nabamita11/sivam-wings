@@ -49,7 +49,7 @@ export const IndustriesSection: React.FC<IndustriesSectionProps> = ({
 
   const getIndustryImage = (id: string) => {
     switch (id) {
-      case 'it':
+      case 'it-ites':
         return itCorporateImage;
       case 'healthcare':
         return healthcareImage;

@@ -15,22 +15,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenContact }) => {
       <div className="absolute top-1/3 left-10 -z-10 w-80 h-80 bg-amber-200/30 rounded-full blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Top Tagline pill */}
-        <div className="flex flex-wrap items-center gap-2 mb-4">
-          <div className="inline-flex items-center gap-2 px-5 py-3 rounded-2xl bg-white text-slate-800 text-sm sm:text-base font-bold tracking-wide border border-sky-200 shadow-md">
-            <img
-              src="/assets/sivamwings-logo.png"
-              alt="Sivam Wings"
-              className="h-24 sm:h-32 md:h-40 w-auto max-w-[460px] object-contain"
-            />
-            <span aria-hidden="true" className="text-slate-300">·</span>
-            <span className="font-semibold text-slate-700">Your People. Our Priority. Your Success.</span>
-            <span aria-hidden="true" className="text-slate-300">·</span>
-            <span className="text-fuchsia-700 italic font-medium hidden sm:inline">Skilled People | Stronger Businesses</span>
-          </div>
-        </div>
-
-        {/* 2-Column Responsive Layout */}
+          {/* 2-Column Responsive Layout */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
           {/* Left Column: Headline and Value Proposition */}
           <div className="lg:col-span-7 space-y-6">
